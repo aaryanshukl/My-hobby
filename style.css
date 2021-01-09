@@ -14,9 +14,7 @@ h2 {
     color: white;
 }
 
-img {
-    width: 30%
-}
+
 
 .select section {
     list-style: none;
@@ -43,4 +41,14 @@ img {
 
 #about {
     color: aliceblue;
+}
+
+img {
+    transition: transform .2s;
+    width: 10%;
+    border: 10px solid #AAAAAA
+}
+
+img:hover {
+    transform: scale(0.9);
 }
